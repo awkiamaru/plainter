@@ -1,31 +1,46 @@
 <app-header-mobile></app-header-mobile>
 <section>
     <div class="container">
-        <div class="float-right mt-4 mb-4">
-            <a routerLink="/login" routerLinkActive="active" class="btn btn-primary btn-lg btn-networking-float">Criar
-                post
-            </a>
-        </div>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Busque aqui" aria-label="Busque aqui"
-                aria-describedby="button-addon2">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Busque aqui</button>
+
+        <div class="row">
+            <div class="col-8 my-auto">
+                <p class="text-title pb-0">Essa é sua lista de próximas mentorias</p>
+            </div>
+            <div class="col-4">
+                <div class="float-right mt-2">
+                    <a routerLink="/login" routerLinkActive="active"
+                        class="btn btn-primary btn-sm btn-networking-float btn-home-apresentation"> NOVA MENTORIA</a>
+                </div>
             </div>
         </div>
+
+
         <div class="box-list-group">
             <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <img src="assets/images/letter.svg" alt="..." class="align-self-start mr-3">
-                    Por que vocês escolheram design?
+                    <div class="">
+                        <img src="assets/svg/letter.svg" alt="..." class="align-self-start mr-3">
+                        <span>Nathan Pinheiros</span>
+                        <span class="mx-5 text-muted">22/10 - 10h</span>
+                    </div>
+                    <div class="text-right">
+                        <p class="btn btn-success btn-sm btn-check-success text-white my-1">Marcar como feita</p>
+                        <span class="mx-5">#design</span>
+                    </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <img src="assets/svg/letter.svg" alt="..." class="align-self-start mr-3">
-                Qual a diferença entre UX e UI?
+                    <div class="">
+                        <img src="assets/svg/letter.svg" alt="..." class="align-self-start mr-3">
+                        <span>Sabrina Magalhães</span>
+                        <span class="mx-5 text-muted">22/10 - 10h</span>
+                    </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <img src="assets/images/letter.svg" alt="..." class="align-self-start mr-3">
-                    Por que vocês escolheram design?
+                    <div class="">
+                        <img src="assets/svg/letter.svg" alt="..." class="align-self-start mr-3">
+                        <span>Sabrina Magalhães</span>
+                        <span class="mx-5 text-muted">22/10 - 10h</span>
+                    </div>
                 </li>
             </ul>
         </div>
