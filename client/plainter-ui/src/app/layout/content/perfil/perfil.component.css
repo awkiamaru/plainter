@@ -1,0 +1,18 @@
+.grey-ligth{
+    color:  rgba(0, 0, 0, 0.56);;
+}
+@media screen and (max-width:1080px){
+    .img-perfil{
+        width: 33vw;
+        height: 13vh;
+        background-image: url(../../../../assets/images/persona-milena.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .divider{
+        height: 39px;
+        border-left: 3px solid rgba(0, 0, 0, 0.12);
+        margin-left: 10px;
+        margin-top: 0;
+    }
+}
