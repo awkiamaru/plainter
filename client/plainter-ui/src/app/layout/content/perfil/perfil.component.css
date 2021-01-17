@@ -1,18 +1,33 @@
 .grey-ligth{
     color:  rgba(0, 0, 0, 0.56);;
 }
-@media screen and (max-width:1080px){
-    .img-perfil{
-        width: 33vw;
-        height: 13vh;
-        background-image: url(../../../../assets/images/persona-milena.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    .divider{
-        height: 39px;
-        border-left: 3px solid rgba(0, 0, 0, 0.12);
-        margin-left: 10px;
-        margin-top: 0;
-    }
+.img-perfil{
+    width: 33vw;
+    height: 13vh;
+    background-image: url(../../../../assets/images/persona-milena.jpg);
+    background-size: cover;
+    background-position: center;
 }
+.divider{
+    height: 39px;
+    border-left: 3px solid rgba(0, 0, 0, 0.12);
+    margin-left: 10px;
+    margin-top: 0;
+}
+.carousel-indicators li {
+    background-color: #8826EB;
+}
+.carousel-indicators {
+    margin-bottom: -30px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon   {
+    display: none;
+}
+.text-purple{
+    color: #8826EB;
+}
+.carousel-item {
+    margin-top: -20px;
+}
+
+
