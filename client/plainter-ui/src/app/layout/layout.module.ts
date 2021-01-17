@@ -18,6 +18,7 @@ import { ObjectiveComponent } from './content/objective/objective.component';
 import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
 import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
 import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
+import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ObjectiveThreeComponent } from './content/objective/objective-three/obj
     ObjectiveComponent,
     ObjectiveOneComponent,
     ObjectiveTwoComponent,
-    ObjectiveThreeComponent
+    ObjectiveThreeComponent,
+    ObjectiveFourComponent
   ],
   imports: [
     CommonModule,

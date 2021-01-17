@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './content/home/home.component';
 import { LoginComponent } from './content/login/login.component';
 import { NetworkingComponent } from './content/networking/networking.component';
+import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
 import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
 import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
 import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path:'objectiveThree',
     component: ObjectiveThreeComponent
+  },
+  {
+    path:'objectiveFour',
+    component: ObjectiveFourComponent
   },
   
   
