@@ -1,43 +1,33 @@
 <app-header-mobile></app-header-mobile>
-<section class="masthead home background-purple">
-    <div class="container h-100">
-        <div class="row h-100 align-items-center">
-            <div class="col-lg-5 text-center mx-auto">
-                <div class="card card-values">
-                    <div class="card-body">
-                        <form>
-                            <div class="row">
-                                <div class="col">
-                                    <h5>Data de início</h5>
-                                    <input type="date" class="form-control">
-                                </div>
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col">
-                                    <h5>Data de conclusão?</h5>
-                                    <input type="date" class="form-control">
-                                </div>
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col">
-                                    <h5>Onde acontece?</h5>
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="mt-4">
-                                <a class="btn btn-lg btn-home-apresentation" routerLink="/objectiveOne" >Avançar
-                                </a>
-                            </div>
-                        </form>
+<section>
+    <div class="container">
+        <div class="float-right mt-4 mb-4">
+                <a routerLink="/objective" routerLinkActive="active" class="btn btn-primary btn-home-apresentation btn-lg btn-networking-float">Refazer objetivo
+            </a>
+        </div>
+        <div class="input-group mb-3">
+           
+            <div class="about-networking">
+                <h5><b>Acompanhamento de Objetivos </b></h5>
+                <div>
+                    <div class="media mt-5">
+                        <img src="../../../../assets/images/step-completed.png" alt="..." class="align-self-start mr-3">
+                        <div class="media-body">
+                            <p class="ml-1 mb-0">Leu o e-book sobre networking</p>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <span>4/4</span>
-                    </div>
+                    <div class="divider"></div>
+                    <div class="media">
+                        <img src="../../../../assets/images/step-completed.png" alt="..." class="align-self-start mr-3">
+                        <div class="media-body">
+                            <p class="ml-1 mb-0">Estudando curso</p>
+                            <span class="grey-ligth mb-5">Carga horária de 2hrs</span>
+                        </div>
+                    </div>               
                 </div>
             </div>
-
         </div>
+       
     </div>
-    <div class='box-bottom-divider'> </div>
 </section>
 <app-header-mobile-bottom></app-header-mobile-bottom>

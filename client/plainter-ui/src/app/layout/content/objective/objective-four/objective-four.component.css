@@ -5,3 +5,15 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .grey-ligth{
+    color:  rgba(0, 0, 0, 0.56);;
+}
+@media screen and (max-width:1080px){
+    .divider{
+        height: 39px;
+        border-left: 3px solid rgba(0, 0, 0, 0.12);
+        margin-left: 10px;
+        margin-top: 0;
+    }
+}
