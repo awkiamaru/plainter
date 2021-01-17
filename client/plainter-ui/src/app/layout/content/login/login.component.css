@@ -24,4 +24,9 @@
 .btn-home-apresentation{
   background-color: rgb(136,38,235,1);
   padding-inline: 3rem;
+  border-radius: 10px;
+}
+
+.card-values {
+  border-radius: 2rem;
 }
