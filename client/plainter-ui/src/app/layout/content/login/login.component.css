@@ -1,0 +1,27 @@
+.masthead {
+    height: 91vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.home {
+    background-image: url('/assets/svg/background.svg');
+}
+
+.text-principal {
+  font-family: 'Rota-Bold';
+  color: black;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.text-secondary {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.btn-home-apresentation{
+  background-color: rgb(136,38,235,1);
+  padding-inline: 3rem;
+}
