@@ -11,6 +11,7 @@ import { PerfilComponent } from './content/perfil/perfil.component';
 import { HeaderLoggedComponent } from './header-logged/header-logged.component';
 import { HeaderMobileComponent } from './header-mobile/header-mobile.component';
 import { HeaderMobileBottomComponent } from './header-mobile-bottom/header-mobile-bottom.component';
+import { NetworkingComponent } from './content/networking/networking.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeaderMobileBottomComponent } from './header-mobile-bottom/header-mobil
     PerfilComponent,
     HeaderLoggedComponent,
     HeaderMobileComponent,
-    HeaderMobileBottomComponent
+    HeaderMobileBottomComponent,
+    NetworkingComponent
   ],
   imports: [
     CommonModule,
