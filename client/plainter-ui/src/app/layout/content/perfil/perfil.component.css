@@ -29,5 +29,39 @@
 .carousel-item {
     margin-top: -20px;
 }
+.progress-bar-desktop{
+    display: none;
+}
+@media screen and (min-width: 1080px){
+    .img-perfil {
+        
+    width: 209px;
+    height: 195px;
 
-
+    }
+    h5{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .media{
+        align-items: center;
+    }
+    .media-body{
+        margin-left: 45px;
+    }
+    .progress-bar-desktop{
+        display: block;
+    }
+    .text-course{
+        margin-top: 10px;
+    }
+    .img-check{
+        width: 4%;
+    }
+    .divider{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
