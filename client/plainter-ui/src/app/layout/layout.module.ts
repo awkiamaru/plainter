@@ -20,6 +20,8 @@ import { ObjectiveTwoComponent } from './content/objective/objective-two/objecti
 import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
 import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
 import { MentorComponent } from './content/mentor/mentor.component';
+import { FindMentorComponent } from './content/find-mentor/find-mentor.component';
+import { MentorDetailsComponent } from './content/mentor-details/mentor-details.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { MentorComponent } from './content/mentor/mentor.component';
     ObjectiveTwoComponent,
     ObjectiveThreeComponent,
     ObjectiveFourComponent,
-    MentorComponent
+    FindMentorComponent,
+    MentorComponent,
+    MentorDetailsComponent
   ],
   imports: [
     CommonModule,
