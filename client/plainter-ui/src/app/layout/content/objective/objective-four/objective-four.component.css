@@ -1,15 +1,7 @@
 .masthead {
-    height: 91vh;
+    height: 75vh;
     min-height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-.home {
-    background-image: url('/assets/svg/background.svg');
-}
-
-
-.card-values {
-  border-radius: 2rem;
-}

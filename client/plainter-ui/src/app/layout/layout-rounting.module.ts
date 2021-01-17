@@ -4,6 +4,11 @@ import { HomeComponent } from './content/home/home.component';
 import { LoginComponent } from './content/login/login.component';
 import { MentorComponent } from './content/mentor/mentor.component';
 import { NetworkingComponent } from './content/networking/networking.component';
+import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
+import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
+import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
+import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
+import { ObjectiveComponent } from './content/objective/objective.component';
 import { PerfilComponent } from './content/perfil/perfil.component';
 import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
 import { SignupComponent } from './content/signup/signup.component';
@@ -28,6 +33,26 @@ const routes: Routes = [
   {
     path: 'signup',
     component: SignupComponent
+  },
+  {
+    path:'objective',
+    component: ObjectiveComponent
+  },
+  {
+    path:'objectiveOne',
+    component: ObjectiveOneComponent
+  },
+  {
+    path:'objectiveTwo',
+    component: ObjectiveTwoComponent
+  },
+  {
+    path:'objectiveThree',
+    component: ObjectiveThreeComponent
+  },
+  {
+    path:'objectiveFour',
+    component: ObjectiveFourComponent
   },
   {
     path: 'mentorias',

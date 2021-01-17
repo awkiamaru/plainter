@@ -5,11 +5,13 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-.home {
-    background-image: url('/assets/svg/background.svg');
+.background {
+    background-image: url("/assets/svg/group4.svg");
 }
-
 
 .card-values {
   border-radius: 2rem;
+}
+.text-objectives{
+    width: 25vw;
 }

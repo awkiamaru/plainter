@@ -14,6 +14,11 @@ import { HeaderMobileBottomComponent } from './header-mobile-bottom/header-mobil
 import { NetworkingComponent } from './content/networking/networking.component';
 import { SignupComponent } from './content/signup/signup.component';
 import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
+import { ObjectiveComponent } from './content/objective/objective.component';
+import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
+import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
+import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
+import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
 import { MentorComponent } from './content/mentor/mentor.component';
 
 @NgModule({
@@ -30,6 +35,11 @@ import { MentorComponent } from './content/mentor/mentor.component';
     NetworkingComponent,
     SignupComponent,
     SignupOneComponent,
+    ObjectiveComponent,
+    ObjectiveOneComponent,
+    ObjectiveTwoComponent,
+    ObjectiveThreeComponent,
+    ObjectiveFourComponent,
     MentorComponent
   ],
   imports: [
