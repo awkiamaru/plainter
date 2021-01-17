@@ -19,6 +19,7 @@ import { ObjectiveOneComponent } from './content/objective/objective-one/objecti
 import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
 import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
 import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
+import { MentorComponent } from './content/mentor/mentor.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ObjectiveFourComponent } from './content/objective/objective-four/objec
     ObjectiveOneComponent,
     ObjectiveTwoComponent,
     ObjectiveThreeComponent,
-    ObjectiveFourComponent
+    ObjectiveFourComponent,
+    MentorComponent
   ],
   imports: [
     CommonModule,

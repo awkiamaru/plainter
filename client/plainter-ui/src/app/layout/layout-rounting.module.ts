@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './content/home/home.component';
 import { LoginComponent } from './content/login/login.component';
+import { MentorComponent } from './content/mentor/mentor.component';
 import { NetworkingComponent } from './content/networking/networking.component';
 import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
 import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
@@ -14,7 +15,7 @@ import { SignupComponent } from './content/signup/signup.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: HomeComponent,
   },
   {
@@ -53,8 +54,10 @@ const routes: Routes = [
     path:'objectiveFour',
     component: ObjectiveFourComponent
   },
-  
-  
+  {
+    path: 'mentorias',
+    component: MentorComponent,
+  }
 ];
 
 @NgModule({
