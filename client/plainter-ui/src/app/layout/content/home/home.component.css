@@ -1,0 +1,27 @@
+
+.masthead {
+    height: 91vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.home {
+    background-color: rgb(235,146,14,1);
+}
+.text-home-apresentation {
+  font-family: "Rota-Bold";
+  font-size: 4rem;
+  color: #fff;
+}
+
+.text-home-secondary {
+    font-family: "Rota-Bold";
+    font-size: 20px;
+    color: #fff;
+  }
+  
+.btn-home-apresentation{
+    background-color: rgb(136,38,235,1);
+}
