@@ -1,0 +1,14 @@
+.header-mobile{
+    display: none;
+}
+@media screen and (max-width: 1080px){
+    .header-mobile{
+        display:block;
+    }
+    .navbar {
+        background-color: #8826EB;}
+    
+    .text-bold {
+        font-family: 'Rota-Bold';
+    }
+}

@@ -7,6 +7,9 @@ import { HomeComponent } from './content/home/home.component';
 import { LoginComponent } from './content/login/login.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { LayoutRountingModule } from './layout-rounting.module';
+import { PerfilComponent } from './content/perfil/perfil.component';
+import { HeaderLoggedComponent } from './header-logged/header-logged.component';
+import { HeaderMobileComponent } from './header-mobile/header-mobile.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { LayoutRountingModule } from './layout-rounting.module';
     ContentComponent,
     HomeComponent,
     LoginComponent,
+    PerfilComponent,
+    HeaderLoggedComponent,
+    HeaderMobileComponent
   ],
   imports: [
     CommonModule,
