@@ -9,11 +9,39 @@
   .grey-ligth{
     color:  rgba(0, 0, 0, 0.56);;
 }
-@media screen and (max-width:1080px){
     .divider{
         height: 39px;
         border-left: 3px solid rgba(0, 0, 0, 0.12);
         margin-left: 10px;
         margin-top: 0;
     }
+
+
+@media screen and (min-width: 1080px){
+    h5{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .media{
+        align-items: center;
+    }
+    .media-body{
+        margin-left: 45px;
+    }
+    .progress-bar-desktop{
+        display: block;
+    }
+    .text-course{
+        margin-top: 10px;
+    }
+    .img-check, .nocheck{
+        width: 55px;
+    }
+    .divider{
+        margin-left: 26px;
+        margin-top: 10px;
+    }
+   
 }

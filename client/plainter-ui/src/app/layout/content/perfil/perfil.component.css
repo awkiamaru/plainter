@@ -29,9 +29,6 @@
 .carousel-item {
     margin-top: -20px;
 }
-.progress-bar-desktop{
-    display: none;
-}
 @media screen and (min-width: 1080px){
     .img-perfil {
         
@@ -64,4 +61,5 @@
         margin-left: 20px;
         margin-top: 10px;
     }
+   
 }
