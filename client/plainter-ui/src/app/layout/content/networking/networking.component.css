@@ -3,3 +3,11 @@
     border:0;
     padding: 0.5rem 4rem;
 }
+.box-list-group{
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 23px;
+}
+.list-group{
+    border-radius: 23px 23px 0 0;
+}
