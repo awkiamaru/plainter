@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { ContentComponent } from './layout/content/content.component';
+import { HomeComponent } from './layout/content/home/home.component';
+import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
-    HeaderComponent,
-    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
