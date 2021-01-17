@@ -1,57 +1,36 @@
 <nav class="navbar navbar-expand-md navbar-light bg-nav-bar header-mobile">
-    <div class="container mt-3">
+  <div class="container mt-3">
+    <a class="navbar-brand text-logo" routerLink="/">
+      <img src="assets/svg/loho horizontal.svg">
+    </a>
 
-
-            <a class="navbar-brand text-logo" routerLink="/">
-              <img src="assets/svg/loho horizontal.svg">
-            </a>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-4">
-                  <div class="text-center">
-                    <img src="assets/svg/header-icon-head.svg" alt="">
-                    <a
-                      class="nav-link text-white text-bold"
-                      routerLink="/mentorias"
-                      >Mentoria</a
-                    >
-                  </div>
-                </li>
-                <li class="nav-item mx-4">
-                  <div class="text-center">
-                  <img src="assets/svg/header-icon-networking.svg" alt="">
-                  <a
-                    class="nav-link text-white text-bold"
-                    href="https://github.com/LuisFrag/search-books/blob/master/README.md"
-                    target="_blank"
-                    >Networking</a
-                  >
-                </div>
-                </li>
-                <li class="nav-item mx-4">
-                  <div class="text-center">
-                    <img src="assets/svg/header-icon-objetivo.svg" alt="">
-                    <a
-                      class="nav-link text-white text-bold"
-                      href="https://github.com/LuisFrag/search-books/blob/master/README.md"
-                      target="_blank"
-                      >Objetivo</a
-                    >
-                  </div>
-                </li>
-                <li class="nav-item mx-4">
-                  <div class="text-center">
-                    <img src="assets/svg/header-icon-perfil.svg" alt="">
-                    <a
-                      class="nav-link text-white text-bold"
-                      href="https://github.com/LuisFrag/search-books/blob/master/README.md"
-                      target="_blank"
-                      >Perfil</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-4">
+          <div class="text-center" routerLink="/mentorias">
+            <img src="assets/svg/header-icon-head.svg" alt="">
+            <a class="nav-link text-white text-bold">Mentoria</a>
+          </div>
+        </li>
+        <li class="nav-item mx-4">
+          <div class="text-center" routerLink="/networking">
+            <img src="assets/svg/header-icon-networking.svg" alt="">
+            <a class="nav-link text-white text-bold">Networking</a>
+          </div>
+        </li>
+        <li class="nav-item mx-4">
+          <div class="text-center" routerLink="/objective">
+            <img src="assets/svg/header-icon-objetivo.svg" alt="">
+            <a class="nav-link text-white text-bold">Objetivo</a>
+          </div>
+        </li>
+        <li class="nav-item mx-4">
+          <div class="text-center" routerLink="/perfil">
+            <img src="assets/svg/header-icon-perfil.svg" alt="">
+            <a class="nav-link text-white text-bold">Perfil</a>
+          </div>
+        </li>
+      </ul>
     </div>
-  </nav>
-  
+  </div>
+</nav>
