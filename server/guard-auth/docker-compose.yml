@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  #POSTGRESQL
+  postgres:
+    image: postgres:12-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: plainter
+      POSTGRES_PASSWORD: plainter
+      POSTGRES_DB: plainter-db
+    volumes:
+      - "./.containers/postgres/data:/var/lib/postgresql/data"
+    security_opt:
+      - apparmor:unconfined
