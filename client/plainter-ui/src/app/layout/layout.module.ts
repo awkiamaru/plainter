@@ -16,6 +16,8 @@ import { SignupComponent } from './content/signup/signup.component';
 import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
 import { ObjectiveComponent } from './content/objective/objective.component';
 import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
+import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
+import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ObjectiveOneComponent } from './content/objective/objective-one/objecti
     SignupComponent,
     SignupOneComponent,
     ObjectiveComponent,
-    ObjectiveOneComponent
+    ObjectiveOneComponent,
+    ObjectiveTwoComponent,
+    ObjectiveThreeComponent
   ],
   imports: [
     CommonModule,

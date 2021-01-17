@@ -43,6 +43,12 @@
 .box-bottom-divider{
   height: 10vh;
 }
+
+/* Backgrounds */
+.background-purple{
+  background-image: url("/assets/svg/group4.svg");
+}
+
 /* Buttons */
 
 .btn-home-apresentation{

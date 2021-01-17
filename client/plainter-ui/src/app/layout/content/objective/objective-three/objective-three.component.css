@@ -1,15 +1,7 @@
 .masthead {
-    height: 78vh;
+    height: 75vh;
     min-height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-
-
-.card-values {
-  border-radius: 2rem;
-}
-.text-objectives{
-    width: 25vw;
-}
