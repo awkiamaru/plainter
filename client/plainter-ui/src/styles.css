@@ -76,3 +76,9 @@
 .card-values {
   border-radius: 2rem;
 }
+
+@media screen and (min-width:1080px){
+  .box-bottom-divider{
+    display: none;
+  }
+}

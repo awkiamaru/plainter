@@ -15,3 +15,9 @@
 .text-objectives{
     width: 25vw;
 }
+
+@media screen and (min-width: 1080px){
+  .masthead{
+    height: 100vh;
+}
+}

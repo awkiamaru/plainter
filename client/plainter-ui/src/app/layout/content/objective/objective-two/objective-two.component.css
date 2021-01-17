@@ -5,3 +5,8 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  @media screen and (min-width: 1080px){
+    .masthead{
+      height: 100vh;
+  }
+  }
