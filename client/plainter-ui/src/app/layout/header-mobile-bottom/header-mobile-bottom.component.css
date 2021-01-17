@@ -1,19 +1,17 @@
 .header-mobile-bottom{
     display: none;
 }
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 720px){
     .header-mobile-bottom{
         display:block;
         background-color: #8826EB;
         font-family: 'Rota-Bold';
     }
-    .header-mobile-bottom_BoxIcon_icon{
-        width: 15vw;
-        height: 7vh;
+    .header-mobile-bottom-box-icon{
+        width: 7vw;
     }
-    .header-mobile-bottom_BoxIcon_text{
+    .header-mobile-bottom-box-icon-text{
         color: rgba(214, 211, 203, 1);
-        margin: 10px 0 0 0;
     }
 
     
