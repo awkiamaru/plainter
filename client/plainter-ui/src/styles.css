@@ -50,6 +50,7 @@
   padding-inline: 3rem;
   border-radius: 10px;
   color: #fff;
+  border: none;
 }
 
 /* Textos */
@@ -63,4 +64,9 @@
 .text-secondary {
   color: black;
   font-size: 1.1rem;
+}
+
+/* Cards */
+.card-values {
+  border-radius: 2rem;
 }
