@@ -1,0 +1,34 @@
+.masthead {
+    height: 91vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.background {
+    background-image: url("/assets/svg/group4.svg");
+}
+.text-principal {
+  font-family: 'Rota-Bold';
+  color: black;
+  font-size: 2rem;
+}
+
+.text-secondary {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.btn-home-apresentation{
+  background-color: rgb(136,38,235,1);
+  padding-inline: 3rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card-values {
+  border-radius: 2rem;
+}
+.text-objectives{
+    width: 25vw;
+}
