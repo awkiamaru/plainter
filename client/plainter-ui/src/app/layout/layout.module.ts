@@ -15,6 +15,7 @@ import { NetworkingComponent } from './content/networking/networking.component';
 import { SignupComponent } from './content/signup/signup.component';
 import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
 import { ObjectiveComponent } from './content/objective/objective.component';
+import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ObjectiveComponent } from './content/objective/objective.component';
     NetworkingComponent,
     SignupComponent,
     SignupOneComponent,
-    ObjectiveComponent
+    ObjectiveComponent,
+    ObjectiveOneComponent
   ],
   imports: [
     CommonModule,

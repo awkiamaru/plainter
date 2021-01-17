@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './content/home/home.component';
 import { LoginComponent } from './content/login/login.component';
 import { NetworkingComponent } from './content/networking/networking.component';
+import { ObjectiveOneComponent } from './content/objective/objective-one/objective-one.component';
 import { ObjectiveComponent } from './content/objective/objective.component';
 import { PerfilComponent } from './content/perfil/perfil.component';
 import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
@@ -32,7 +33,12 @@ const routes: Routes = [
   {
     path:'objective',
     component: ObjectiveComponent
-  }
+  },
+  {
+    path:'objectiveOne',
+    component: ObjectiveOneComponent
+  },
+  
 ];
 
 @NgModule({
