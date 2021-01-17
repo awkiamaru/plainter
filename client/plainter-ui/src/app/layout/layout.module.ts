@@ -13,6 +13,7 @@ import { HeaderMobileComponent } from './header-mobile/header-mobile.component';
 import { HeaderMobileBottomComponent } from './header-mobile-bottom/header-mobile-bottom.component';
 import { NetworkingComponent } from './content/networking/networking.component';
 import { SignupComponent } from './content/signup/signup.component';
+import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SignupComponent } from './content/signup/signup.component';
     HeaderMobileComponent,
     HeaderMobileBottomComponent,
     NetworkingComponent,
-    SignupComponent
+    SignupComponent,
+    SignupOneComponent
   ],
   imports: [
     CommonModule,
