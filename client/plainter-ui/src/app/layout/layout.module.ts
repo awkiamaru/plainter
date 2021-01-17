@@ -10,6 +10,7 @@ import { LayoutRountingModule } from './layout-rounting.module';
 import { PerfilComponent } from './content/perfil/perfil.component';
 import { HeaderLoggedComponent } from './header-logged/header-logged.component';
 import { HeaderMobileComponent } from './header-mobile/header-mobile.component';
+import { HeaderMobileBottomComponent } from './header-mobile-bottom/header-mobile-bottom.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderMobileComponent } from './header-mobile/header-mobile.component';
     LoginComponent,
     PerfilComponent,
     HeaderLoggedComponent,
-    HeaderMobileComponent
+    HeaderMobileComponent,
+    HeaderMobileBottomComponent
   ],
   imports: [
     CommonModule,
