@@ -1,0 +1,30 @@
+ <section class="masthead home" *ngIf='signupFour'>
+    <div class="container h-100" >
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-5 text-center mx-auto">
+          <div class="card card-values">
+            <div class="card-body">
+              <p class="text-principal">Networking é futuro!</p>
+              <p class="text-secondary">Com certeza você conhece histórias de
+                amigos/conhecidos/estranhos que conseguiram
+                a primeira vaga através de indicação</p>
+              <img src="assets/svg/Advertise.svg" class='mb-3' width='50px' alt="Menina segurando um megafone">
+              <p>Vamos fornecer conexões de qualidade, além de apoio na jornada, métodos de criação de planos de ação e muito mais!</p>
+
+              <div class=" mb-2">
+                <a class="btn btn-lg btn-home-apresentation" (click)="signupFourPass()">Avançar
+                </a>
+              </div>
+              <div class="card-body">
+                <span>4/6</span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div *ngIf="!signupFour">
+    <app-signup-four></app-signup-four>
+  </div>
+ 

@@ -6,11 +6,23 @@
         <div class="col-lg-5 text-center mx-auto" >
             <div class="card card-values">
                 <div class="card-body">
-                    <p class="text-principal">Muito obrigada pelo interesse o/</p>
-                    <p class="text-secondary">Primeiro vamos te apresentar,
-                        brevemente, o que fazemos.</p>
-                    <p>Te fornecemos a ponte entre quem você era e quem você vai ser.</p>
-                    <img src="assets/svg/Vector.svg" alt="">
+                    <p class="text-principal">Que bom que você chegou até aqui!</p>
+                    <p class="text-secondary">Agora vamos precisar de apenas
+                      algumas informações </p>
+                    <form class="text-left ">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@example.com.br">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@example.com.br">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Senha </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="**********">
+                      </div>
+                    </form>
                     <div class="mt-4 mb-4">
                         <a class="btn btn-lg btn-home-apresentation" (click)="signOnePass()"
                         >Avançar

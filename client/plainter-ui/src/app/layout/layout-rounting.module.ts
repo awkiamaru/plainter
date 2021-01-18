@@ -10,7 +10,11 @@ import { ObjectiveThreeComponent } from './content/objective/objective-three/obj
 import { ObjectiveTwoComponent } from './content/objective/objective-two/objective-two.component';
 import { ObjectiveComponent } from './content/objective/objective.component';
 import { PerfilComponent } from './content/perfil/perfil.component';
+import { SignTwoComponent } from './content/signup/sign-two/sign-two.component';
+import { SignupFiveComponent } from './content/signup/signup-five/signup-five.component';
+import { SignupFourComponent } from './content/signup/signup-four/signup-four.component';
 import { SignupOneComponent } from './content/signup/signup-one/signup-one.component';
+import { SignupThreeComponent } from './content/signup/signup-three/signup-three.component';
 import { SignupComponent } from './content/signup/signup.component';
 
 const routes: Routes = [
@@ -57,6 +61,22 @@ const routes: Routes = [
   {
     path: 'mentorias',
     component: MentorComponent,
+  },
+  {
+    path: 'signupTwo',
+    component: SignTwoComponent,
+  },
+  {
+    path: 'signupThree',
+    component: SignupThreeComponent,
+  },
+  {
+    path: 'signupFour',
+    component: SignupFourComponent,
+  },
+  {
+    path: 'signupFive',
+    component: SignupFiveComponent
   }
 ];
 

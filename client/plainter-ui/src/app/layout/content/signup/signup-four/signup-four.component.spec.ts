@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SignupOneComponent } from './signup-one.component';
+import { SignupFourComponent } from './signup-four.component';
 
-describe('SignupOneComponent', () => {
-  let component: SignupOneComponent;
-  let fixture: ComponentFixture<SignupOneComponent>;
+describe('SignupFourComponent', () => {
+  let component: SignupFourComponent;
+  let fixture: ComponentFixture<SignupFourComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SignupOneComponent ]
+      declarations: [ SignupFourComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SignupOneComponent);
+    fixture = TestBed.createComponent(SignupFourComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -22,5 +22,4 @@ describe('SignupOneComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
- 
 });

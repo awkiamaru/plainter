@@ -1,0 +1,33 @@
+<section class="masthead home" *ngIf='signupFive'>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-5 text-center mx-auto">
+        <div class="card card-values">
+          <div class="card-body">
+            <p class="text-secondary">Para encontrarmos conexões precisamos saber:</p>
+            <p class="text-principal">Com o que você mais se identifica?</p>
+            <p class="text-secondary">Selecione até 3 opções</p>
+            <div class="mt-4 mb-4 d-flex justify-content-around">
+              <div class="item-text-habilities">
+                <p>exatas</p>
+              </div>
+              <div class="item-text-habilities">
+                <p>exatas</p>
+              </div>
+            </div>
+            <div class="mt-4 mb-4">
+              <a class="btn btn-lg btn-home-apresentation" (click)="signupFivePass()">Avançar
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <span>5/6</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div *ngIf="!signupFive">
+  <app-signup-five></app-signup-five>
+</div>
