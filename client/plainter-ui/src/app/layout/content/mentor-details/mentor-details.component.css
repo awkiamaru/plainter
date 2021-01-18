@@ -1,0 +1,39 @@
+.masthead {
+    height: 89vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+.card-values {
+  border-radius: 2rem;
+}
+
+.primary-text{
+    font-family: 'Rota-Bold';
+    font-size: 1.5rem;
+}
+
+.text-bold {
+    font-family: 'Rota-Bold';
+}
+
+.seccontady-text{
+    font-size: 1rem;
+}
+
+.round-btn {
+    border-radius: 25px;
+}
+
+.btn-success {
+    background-color: #26EB67;
+    border: none;
+}
+
+.btn-roxo {
+    background-color: #8826EB;
+    border: none;
+}

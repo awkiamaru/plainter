@@ -25,6 +25,8 @@ import { SignupThreeComponent } from './content/signup/signup-three/signup-three
 import { SignupFourComponent } from './content/signup/signup-four/signup-four.component';
 import { SignupFiveComponent } from './content/signup/signup-five/signup-five.component';
 
+import { FindMentorComponent } from './content/find-mentor/find-mentor.component';
+import { MentorDetailsComponent } from './content/mentor-details/mentor-details.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,10 @@ import { SignupFiveComponent } from './content/signup/signup-five/signup-five.co
     SignTwoComponent,
     SignupThreeComponent,
     SignupFourComponent,
-    SignupFiveComponent
+    SignupFiveComponent,
+    FindMentorComponent,
+    MentorComponent,
+    MentorDetailsComponent
   ],
   imports: [
     CommonModule,

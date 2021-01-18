@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { FindMentorComponent } from './content/find-mentor/find-mentor.component';
 import { HomeComponent } from './content/home/home.component';
 import { LoginComponent } from './content/login/login.component';
+import { MentorDetailsComponent } from './content/mentor-details/mentor-details.component';
 import { MentorComponent } from './content/mentor/mentor.component';
 import { NetworkingComponent } from './content/networking/networking.component';
 import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
@@ -76,8 +78,19 @@ const routes: Routes = [
   },
   {
     path: 'signupFive',
-    component: SignupFiveComponent
-  }
+    component: SignupFiveComponent,
+  },{
+    path: 'mentorias',
+    component: MentorComponent,
+  },
+{
+  path: 'mentorias/encontrar',
+  component: FindMentorComponent
+},
+{
+  path: 'mentorias/detalhes',
+  component: MentorDetailsComponent
+}
 ];
 
 @NgModule({
