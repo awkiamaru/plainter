@@ -8,8 +8,17 @@
 .home {
     background-image: url('/assets/svg/background.svg');
 }
-.item-text-habilities{
+
+@media screen and (min-width: 1080px){
+  .item-text-habilities{
     border: 2px solid orange;
     padding: 10px 60px 0 60px;
+    border-radius: 20px;
+}
+
+}
+.item-text-habilities{
+  border: 2px solid orange;
+  padding: 10px 20px 0 25px;
     border-radius: 20px;
 }
