@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="docs/vertical-logo.png" width="380" height="100"> 
+  <img src="docs/vertical-logo.png" > 
 </h1>
 
 
