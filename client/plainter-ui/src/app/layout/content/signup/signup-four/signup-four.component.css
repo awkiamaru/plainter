@@ -1,0 +1,15 @@
+.masthead {
+    height: 91vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.home {
+    background-image: url('/assets/svg/background.svg');
+}
+.item-text-habilities{
+    border: 2px solid orange;
+    padding: 10px 60px 0 60px;
+    border-radius: 20px;
+}

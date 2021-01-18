@@ -9,7 +9,12 @@ export class SignupOneComponent implements OnInit {
 
   constructor() { }
 
+  signTwo: boolean = true;
+
   ngOnInit(): void {
   }
 
+  signTwoPass() {
+    this.signTwo = false;
+  }
 }

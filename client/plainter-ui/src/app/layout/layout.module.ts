@@ -20,6 +20,11 @@ import { ObjectiveTwoComponent } from './content/objective/objective-two/objecti
 import { ObjectiveThreeComponent } from './content/objective/objective-three/objective-three.component';
 import { ObjectiveFourComponent } from './content/objective/objective-four/objective-four.component';
 import { MentorComponent } from './content/mentor/mentor.component';
+import { SignTwoComponent } from './content/signup/sign-two/sign-two.component';
+import { SignupThreeComponent } from './content/signup/signup-three/signup-three.component';
+import { SignupFourComponent } from './content/signup/signup-four/signup-four.component';
+import { SignupFiveComponent } from './content/signup/signup-five/signup-five.component';
+
 import { FindMentorComponent } from './content/find-mentor/find-mentor.component';
 import { MentorDetailsComponent } from './content/mentor-details/mentor-details.component';
 
@@ -42,6 +47,11 @@ import { MentorDetailsComponent } from './content/mentor-details/mentor-details.
     ObjectiveTwoComponent,
     ObjectiveThreeComponent,
     ObjectiveFourComponent,
+    MentorComponent,
+    SignTwoComponent,
+    SignupThreeComponent,
+    SignupFourComponent,
+    SignupFiveComponent,
     FindMentorComponent,
     MentorComponent,
     MentorDetailsComponent

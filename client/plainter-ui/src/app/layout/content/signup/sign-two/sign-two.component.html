@@ -1,0 +1,30 @@
+<section class="masthead home"  *ngIf='signupThree'>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-5 text-center mx-auto">
+            <div class="card card-values">
+                <div class="card-body">
+                  <p class="text-secondary">A pergunta de ouro....</p>
+                    <p class="text-principal">Você sabe o que é networking?</p>
+                    <p>Calma! Estamos aqui pra te ajudar nesse processo, não tem certo ou errado.</p>
+
+                    <div class="mt-4 mb-4 d-flex justify-content-around">
+                      <a class="btn btn-lg btn-home-apresentation"
+                      > Sim :)
+                    </a>
+                    <a class="btn btn-lg btn-home-apresentation"  (click)="signupThreePass()"
+                      >Não :(
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <span>3/6</span>
+                </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div *ngIf="!signupThree">
+    <app-signup-three></app-signup-three>
+  </div>
