@@ -1,7 +1,6 @@
-# 
-
-![plainter-logo](./docs/vertical-logo.png)
-
+<h1 align="center">
+  <img src="docs/vertical-logo.png" width="380" height="300"> 
+</h1>
 
 
 <h4 align="center">Tenha acesso a mentorias, trilhas de conhecimento personalizadas, comunidades de networking e possibilidade de match com empresas que busquem o seu perfil. Tudo isso, de graça!</h4>
