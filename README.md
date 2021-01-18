@@ -6,7 +6,7 @@
 <h4 align="center">Tenha acesso a mentorias, trilhas de conhecimento personalizadas, comunidades de networking e possibilidade de match com empresas que busquem o seu perfil. Tudo isso, de graça!</h4>
 
 
-
+https://plainter.netlify.app/
 
 
 
